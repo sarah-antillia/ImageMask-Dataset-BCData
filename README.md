@@ -8,7 +8,7 @@ The original dataset used here has been taken from the following web-site<br>
 <pre>
 https://sites.google.com/view/bcdataset
 </pre>
-The BCData data can be downloaded from the google drive 
+The BCData can be downloaded from the google drive 
 <a href="https://drive.google.com/file/d/16W04QOR1E-G3ifc4061Be4eGpjRYDlkA/view?usp=sharing">BCData.zip</a>.
 
 
