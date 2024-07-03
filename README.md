@@ -1,6 +1,6 @@
 <h2>ImageMask-Dataset-BCData  (2024/07/03)</h2>
 
-This is ImageMask Dataset forImageMask Dataset for BCData: A Large-Scale Dataset and Benchmark for Cell Detection and Counting
+This is ImageMask Dataset for BCData: A Large-Scale Dataset and Benchmark for Cell Detection and Counting
 (MICCAI 2020).
 <br>
 The original dataset used here has been taken from the following web-site<br>
