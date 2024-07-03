@@ -1,0 +1,36 @@
+BCData: 
+
+
+Toshiyuki Arai <toshiyuki.arai.uz@gmail.com>
+
+https://sites.google.com/view/bcdataset
+BCData: A Large-Scale Dataset and Benchmark for Cell Detection and Counting
+Here is the website to release the BCData dataset for our work, BCData: A Large-Scale Dataset and Benchmark 
+for Cell Detection and Counting (MICCAI 2020).
+
+Please click here to download the BCData dataset for cell detection and counting.
+
+The initial images are in the BCData/images folder, while the corresponding annotations are in the BCData/annotations 
+folder. The dataset is separated into three parts: train, validataion and test. The annotations of the positive and negative 
+tumor cells are in the positive subfolder and negative subfolder, respectively.
+
+Examples:
+1) For the image with the path of BCData/images/train/10.png in the train set, the path for its annotations for the positive 
+tumor cells is BCData/annotations/train/positive/10.h5, and the path for its annotations for the negative tumor cells is 
+BCData/annotations/train/negative/10.h5.
+
+2) For the image with the path of BCData/images/validation/10.png in the validation set, the path for its annotations for 
+the positive tumor cells is BCData/annotations/validation/positive/10.h5, and the path for its annotations for the negative tumor 
+cells is BCData/annotations/validation/negative/10.h5.
+
+Example script for loading the annotation (in Python):
+
+import h5py
+
+import numpy as np
+
+gt_path = "Path of the corresponding .h5 file"
+
+gt_file = h5py.File(gt_path)
+
+coordinates = np.asarray(gt_file['coordinates'])
