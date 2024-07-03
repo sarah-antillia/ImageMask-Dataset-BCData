@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 # 2024/07/03
-# mageMaskDatasetGenerator:
+# ImageMaskDatasetGenerator:
 
 """
 From 
