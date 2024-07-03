@@ -47,13 +47,14 @@ script <a href="./H5AnnotationParser.py">H5AnnotationParser.py</a>.
 <b>Console output</b>: <br>
 <img src="./asset/Pointwise_annotation.png" width="512" height="auto"><br>
 <br>
+The command will generate a Circled pointwise mask file as shown below.<br>
 <table>
 <tr>
 <th>
 Image
 </th>
 <th>
-Circled pointwise mask 
+Circled pointwise mask
 </th>
 
 </tr>
