@@ -29,14 +29,14 @@ From
 
 , this script will generate the following dataset. 
 
-./BCData-master
+./BCData-ImageMask-Dataset-V1
 ├─test
 │  ├─images
 │  └─masks
 ├─train
 │  ├─images
 │  └─masks
-└─valid
+└─validation
   ├─images
   └─masks
 
@@ -44,14 +44,14 @@ From
  python ImageMaskDatasetGenerator.py True
 , this will generate the following dataset.
  
-./PreAugmented-BCData-master
+./BCData-ImageMask-Dataset-V1
 ├─test
 │  ├─images
 │  └─masks
 ├─train
 │  ├─images
 │  └─masks
-└─valid
+└─validation
   ├─images
   └─masks
 
