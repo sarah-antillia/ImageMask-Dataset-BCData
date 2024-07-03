@@ -45,6 +45,7 @@ script <a href="./H5AnnotationParser.py">H5AnnotationParser.py</a>.
 > python H5AnnotatonParser.py
 </pre>
 <b>Console output</b>: <br>
+As shown below, an h5 annotation file of BCData contains the point coordinates correspoding to the cells.<br>
 <img src="./asset/Pointwise_annotation.png" width="512" height="auto"><br>
 <br>
 The command will generate a Circled pointwise mask file as shown below.<br>
